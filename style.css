@@ -1,52 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
 
-*, *::before, *::after{
-    box-sizing: border-box;
-    font-family: "Poppins";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Poppins";
 }
 
-.card{
-    box-shadow: 0px 10px 29px rgba(0,0,0,0.22);
-    border: none;
-    padding : 2rem;
-    width: 400px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    font-family: "Poppins", sans-serif;
-    background-color: white;
+.card {
+  box-shadow: 0px 10px 29px rgba(0, 0, 0, 0.22);
+  border: none;
+  padding: 2rem;
+  width: 400px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
 }
 
-.learn{
-  background-color: rgb(247,248,248);
+.learn {
+  background-color: rgb(247, 248, 248);
 }
 
-h1{
-    font-weight: 1000;
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+h1 {
+  font-weight: 1000;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
 }
 
-form{
+form {
   font-size: 0.9rem;
-  text-transform : uppercase;
+  text-transform: uppercase;
   font-weight: 700;
 }
 
-#email, #pass{
-    padding: 20px;
-    width: 100%;
-    background-color:#f3f4f5;
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 600;
-    opacity: 0.75;
+#email,
+#pass {
+  padding: 20px;
+  width: 100%;
+  background-color: #f3f4f5;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.75;
 }
 
-
-.form1{
+.form1 {
   width: 100%;
   border: none;
   border-radius: 10px;
@@ -55,28 +57,33 @@ form{
   line-height: 40px;
 }
 
-.check{
-    display: inline-flex;
+.check {
+  display: inline-flex;
 }
 
-input[type="checkbox"]{
-    width: 20px;
-    border-color: #f3f4f5;
-    opacity: 0.5;
+input[type="checkbox"] {
+  width: 20px;
+  border-color: #f3f4f5;
+  opacity: 0.5;
 }
 
-.souvenir{
-    margin-left: 10px;
+.souvenir {
+  margin-left: 10px;
 }
 
-input[type="submit"]{
-    background-color: #7c47c0;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 15px;
-    width: 100%;
-    border: none;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
+input[type="submit"] {
+  background-color: #7c47c0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+/***************JAVASCRIPT**************/
+
+#error {
+  color: red;
 }
