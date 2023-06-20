@@ -82,16 +82,22 @@ input[type="submit"] {
   font-size: 15px;
   font-weight: bold;
 }
+
 /***************JAVASCRIPT**************/
 
-p#error{
+p#error {
   opacity: 0;
   color: red;
 }
 
-p#errmail{
+p#errmail {
   font-weight: 500;
   color: red;
   opacity: 0;
   margin: 0;
+  text-transform: lowercase;
+}
+
+#error {
+  border
 }
