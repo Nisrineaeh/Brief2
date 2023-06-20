@@ -84,10 +84,7 @@ input[type="submit"] {
 }
 /***************JAVASCRIPT**************/
 
-#error {
-  color: red;
-}
-
 p#error{
   opacity: 0;
+  color: red;
 }
