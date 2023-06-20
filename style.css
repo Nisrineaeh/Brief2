@@ -87,3 +87,7 @@ input[type="submit"] {
 #error {
   color: red;
 }
+
+p#error{
+  opacity: 0;
+}
