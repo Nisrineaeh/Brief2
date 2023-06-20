@@ -3,28 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
     <title>Connexion</title>
   </head>
   <body>
-
-    <div class="card">
+    <section class="learn">
+      <div class="card">
         <h1>Je me connecte avec mes identifiants</h1>
         <form action="ou les envoyer" method="get" id="form">
-            
-            <div class="form-example">
-                <label for="email">Adresse mail</label><br>
-                <input type="email" name="email" placeholder="chuck@norris.com" id="email" required>
-            </div>
-            <div class="form-example">
-                <label for="name">Mot de passe</label><br>
-                <input type="password" name="pass" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" id="pass" required>
-            </div>
-            <div id="submit">
-                <input type="submit" value="Connexion">
-            </div>
-        </form>
+          <div class="form1">
+            <label for="email">Adresse mail</label><br />
+            <input
+              type="email"
+              name="email"
+              placeholder="chuck@norris.com"
+              id="email"
+              required
+            />
+          </div>
+          <div class="form1">
+            <label for="password">Mot de passe</label><br />
+            <input
+              type="password"
+              name="pass"
+              placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"
+              id="pass"
+              required
+            />
+          </div>
+          <div class="check">
+            <input type="checkbox" />
+            <p class="souvenir">Se souvenir de moi</p>
+          </div>
 
-    </div>
+          <div id="submit">
+            <input type="submit" value="Connexion">
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
