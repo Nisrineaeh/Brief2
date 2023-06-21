@@ -6,7 +6,7 @@ document.getElementById("sent").addEventListener("click", function (event) {
       event.preventDefault(); // Empêche l'envoi du formulaire
       let elementToFade = document.getElementById("error");
       elementToFade.style.opacity = "1";
-      passInput.style.border = "1px solid red";
+      passInput.style.border = "2px solid red";
       return;
     }
   }
@@ -22,6 +22,6 @@ document.getElementById("sent").addEventListener("click", function (event) {
     errorMessage.style.opacity = "0";
   } else {
     errorMessage.style.opacity = "1";
-    emailInput.style.border = "1px solid red";
+    emailInput.style.border = "2px solid red";
   }
 });
