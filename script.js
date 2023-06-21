@@ -8,7 +8,6 @@ document.getElementById("sent").addEventListener("click", function (event) {
       elementToFade.style.opacity = "1";
       formInputs[i].style.border = "2px solid red";
       console.log(formInputs[i]);
-      // return;
     }
   }
 });
