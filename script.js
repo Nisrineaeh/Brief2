@@ -26,25 +26,27 @@ document.getElementById("sent").addEventListener("click", function (event) {
   }
 });
 
-document.addEventListener("DOMContentLoaded", function (event) {
-  let formInputs = document.querySelectorAll("input");
-  let email = document.getElementById("email");
-  let errorMessage = document.getElementById("errmail");
-  let errorV = document.getElementById("error");
-  let pass = document.getElementById("pass");
+ /** On a essayer de mettre en place une f(x) qui retirerait le border et le message d'erreur**/
 
-  for (i = 0; i < formInputs.length; i++) {
-    formInputs[i].addEventListener("change", function (event) {
-      if (email.value != "" && passInput.value != ""){
-        errorMessage.style.opacity = "0";
-        errorV.style.opacity = "0";
-        email.style.border = "none";
-        pass.style.border = "none";
-      } else if(email.value != ""){
-        errorMessage.style.opacity = "0";
-        email.style.border = "none";
-      } else if (pass.value != "") {
-        pass.style.border = "none";
-      }
-    }
-    )}});
+// document.addEventListener("DOMContentLoaded", function (event) {
+//   let formInputs = document.querySelectorAll("input");
+//   let email = document.getElementById("email");
+//   let errorMessage = document.getElementById("errmail");
+//   let errorV = document.getElementById("error");
+//   let pass = document.getElementById("pass");
+  
+//  for (i = 0; i < formInputs.length; i++) {
+//     formInputs[i].addEventListener("change", function (event) {
+//       if (email.value != "" && passInput.value != ""){
+//         errorMessage.style.opacity = "0";
+//         errorV.style.opacity = "0";
+//         email.style.border = "none";
+//         pass.style.border = "none";
+//       } else if(email.value != ""){
+//         errorMessage.style.opacity = "0";
+//         email.style.border = "none";
+//       } else if (pass.value != "") {
+//         pass.style.border = "none";
+//       }
+//     }
+//     )}});
