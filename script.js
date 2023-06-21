@@ -31,22 +31,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
   let email = document.getElementById("email");
   let errorMessage = document.getElementById("errmail");
   let errorV = document.getElementById("error");
-  let passInput = document.getElementById("pass");
+  let pass = document.getElementById("pass");
 
   for (i = 0; i < formInputs.length; i++) {
     formInputs[i].addEventListener("change", function (event) {
-      if (email.value != "") {
-        errorMessage.style.opacity = "0";
-        email.style.border = "none";
-      } else if (passInput.value != "") {
-        errorV.style.opacity = "0";
-        passInput.style.border = "none";
-      }else if (email.value != "" && passInput.value != "") {
+      if (email.value != "" && passInput.value != ""){
         errorMessage.style.opacity = "0";
         errorV.style.opacity = "0";
         email.style.border = "none";
-        passInput.style.border = "none";
-      }
-    });
-  }
-});
+        pass.style.border = "none";
+      } else if(email.value != ""){
+        errorMessage.style.opacity = "0";
+        email.style.border = "none";
+      } else if (pass.value != "") {
+        pass.style.border = "none";
+      }})};
+    
