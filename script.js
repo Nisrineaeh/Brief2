@@ -45,5 +45,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         email.style.border = "none";
       } else if (pass.value != "") {
         pass.style.border = "none";
-      }})};
-    
+      }
+    }
+    )}});
